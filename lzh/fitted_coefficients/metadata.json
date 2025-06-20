@@ -1,0 +1,30 @@
+{
+  "train_samples": 44000,
+  "test_samples": 11000,
+  "known_models": [
+    "ProGAN",
+    "MMDGAN",
+    "pProGAN",
+    "StyleGAN",
+    "VanillaVAE",
+    "BetaVAE",
+    "ADM",
+    "DDPM",
+    "SD1.5",
+    "SD2.1"
+  ],
+  "unknown_models": [],
+  "label_mapping": {
+    "0": "real",
+    "1": "ProGAN",
+    "2": "MMDGAN",
+    "3": "pProGAN",
+    "4": "StyleGAN",
+    "5": "VanillaVAE",
+    "6": "BetaVAE",
+    "7": "ADM",
+    "8": "DDPM",
+    "9": "SD1.5",
+    "10": "SD2.1"
+  }
+}
